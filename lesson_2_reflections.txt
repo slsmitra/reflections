@@ -15,6 +15,20 @@ then the difference between your staging area and latest commit (git diff --stag
 then the programmer can decide whether your change is significant enough to commit to 
 the repository.
 
+10. Use of branch ... Branches are useful when you might want to preserve the master 
+branch but try some experiment that runs in parallel. For example, someone in your team
+wants to try out an alternative algorithm for something that may be more efficient but
+is still untested. That member can get their own branch to work with, and the main
+team still works with the master branch.
+
+11. Diagrams visualize branch structure ... sure. You can see the history of commits
+for each branch. You can also see unreachable commits, that you can then convert to
+its own branch. An unreachable commit is a branch off from the main 'stream' of a branch,
+from which you can draw an arrow to a commit of the branch. But there is no arrow that
+comes INTO this commit.
+
+
+
 
 
 
