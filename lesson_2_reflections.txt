@@ -9,6 +9,12 @@ puts the files currently in the staging area into the repository, and now you ca
 the history. What I am not sure is where the staging area is and where the repository is
 (physically). Is that a mystery?
 
+9. Use staging area to make sure of one commit per logical change ... you can do this
+by checking the diff between your working directory and staging area (just git diff),
+then the difference between your staging area and latest commit (git diff --staged) and
+then the programmer can decide whether your change is significant enough to commit to 
+the repository.
+
 
 
 
