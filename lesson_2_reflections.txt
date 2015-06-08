@@ -1,0 +1,17 @@
+Lesson 2 Reflections
+
+7. Why create your own git repository? ... Well, you need it to add your own files that 
+you want to track, as part of your own (separate) project.
+
+8. staging area vs working directory vs repository... I see need for staging area. It is
+where you hold the files from your working directory before you decide to commit. Commit
+puts the files currently in the staging area into the repository, and now you can see
+the history. What I am not sure is where the staging area is and where the repository is
+(physically). Is that a mystery?
+
+
+
+
+
+
+
