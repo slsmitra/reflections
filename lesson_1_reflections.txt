@@ -1,0 +1,24 @@
+Lesson 1 Reflections
+
+1. Diff (FC) helped locate the misspelled word more easily. In a relative sense -- a lot of 
+diff output would continue to make it hard to locate.
+
+2. Having old versions around ... can go back to the version you know worked if you know
+where it is.
+
+3. Git allows commits to consist of multiple file updates each ... git is geared towards
+programmers who usually work with multiple files on a project, and not others who might
+very well just live with one file.
+
+4. git log gives you the history with ids and messages. You can then use the
+ids to compare the differences between files in (adjacent only?) commits
+
+5. Version control helps with changes ... since I know I can go back to some changes I
+am ok with making them ... basically, the 'Undo' feature is great.
+
+6. Use Git for ... version control of code, of course.
+
+
+
+
+
