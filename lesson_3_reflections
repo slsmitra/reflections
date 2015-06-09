@@ -25,3 +25,8 @@ You can have it if you are going to be offline for a while, and you
 want to work offline knowing what the remote is ... perhaps you need
 to diff your local with the remote and take appropriate steps afterwards.
 
+How would you collaborate without using Git or GitHub? What would be easier, 
+and what would be harder?
+Would e-mail files around. It would be really hard to keep track of changes
+others made to shared files. Would not have to worry about versions and their
+being in sync though.
