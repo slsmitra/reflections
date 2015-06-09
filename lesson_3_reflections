@@ -18,3 +18,10 @@ Clone - create a copy of a set of files (repository) in another directory.
 Useful when you want to upload to a remote server, give a copy to another
 person, etc.
 Fork - clone on remote machine.
+
+What is the benefit of having a copy of the last known state of the 
+remote stored locally?
+You can have it if you are going to be offline for a while, and you
+want to work offline knowing what the remote is ... perhaps you need
+to diff your local with the remote and take appropriate steps afterwards.
+
