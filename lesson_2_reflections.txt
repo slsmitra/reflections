@@ -27,6 +27,18 @@ its own branch. An unreachable commit is a branch off from the main 'stream' of 
 from which you can draw an arrow to a commit of the branch. But there is no arrow that
 comes INTO this commit.
 
+12. Result of merging two branches together .. following the algorithm outlined, the 
+result of merging two branches together can incorporate the changes added by one branch
+with those added by the other. I think this can be highly tricky though ... what if
+the changes are in conflict? Some human has to review the merged file, don't you think?
+And ...the diagram is represented the way it is because it shows the history and 
+navigability of commits. The merged diagram shows that a commit may have two ancestors,
+which means that the changes of both are included.
+
+13. Pros and cons of auto merge vs manual ... well, I got my answer to my question
+from my previous reflection. A manual intervention is necessary in many cases.
+One thing I note is that files should not be too large. Using git may suggest
+some guidelines for file size so that manually resolving merge confl
 
 
 
