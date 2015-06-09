@@ -8,3 +8,13 @@ Why might you want to always pull changes manually rather than having Git automa
 So that the sync'ing of my local files with the remote files is under my control. I
 do it when I think it 'makes sense' - when there is a logical change that I need to
 convey to my team. And vice versa.
+
+Describe the differences between forks, clones, and branches. When would 
+you use one instead of another?
+Branch - a branching off from a certain commit, followed by a series of commits
+by one person in one branch and another person in another (for example). Useful
+when two people want to experiment with the files in their own way.
+Clone - create a copy of a set of files (repository) in another directory.
+Useful when you want to upload to a remote server, give a copy to another
+person, etc.
+Fork - clone on remote machine.
