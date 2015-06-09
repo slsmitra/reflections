@@ -9,6 +9,38 @@ puts the files currently in the staging area into the repository, and now you ca
 the history. What I am not sure is where the staging area is and where the repository is
 (physically). Is that a mystery?
 
+9. Use staging area to make sure of one commit per logical change ... you can do this
+by checking the diff between your working directory and staging area (just git diff),
+then the difference between your staging area and latest commit (git diff --staged) and
+then the programmer can decide whether your change is significant enough to commit to 
+the repository.
+
+10. Use of branch ... Branches are useful when you might want to preserve the master 
+branch but try some experiment that runs in parallel. For example, someone in your team
+wants to try out an alternative algorithm for something that may be more efficient but
+is still untested. That member can get their own branch to work with, and the main
+team still works with the master branch.
+
+11. Diagrams visualize branch structure ... sure. You can see the history of commits
+for each branch. You can also see unreachable commits, that you can then convert to
+its own branch. An unreachable commit is a branch off from the main 'stream' of a branch,
+from which you can draw an arrow to a commit of the branch. But there is no arrow that
+comes INTO this commit.
+
+12. Result of merging two branches together .. following the algorithm outlined, the 
+result of merging two branches together can incorporate the changes added by one branch
+with those added by the other. I think this can be highly tricky though ... what if
+the changes are in conflict? Some human has to review the merged file, don't you think?
+And ...the diagram is represented the way it is because it shows the history and 
+navigability of commits. The merged diagram shows that a commit may have two ancestors,
+which means that the changes of both are included.
+
+13. Pros and cons of auto merge vs manual ... well, I got my answer to my question
+from my previous reflection. A manual intervention is necessary in many cases.
+One thing I note is that files should not be too large. Using git may suggest
+some guidelines for file size so that manually resolving merge confl
+
+
 
 
 
