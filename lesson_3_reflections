@@ -30,3 +30,10 @@ and what would be harder?
 Would e-mail files around. It would be really hard to keep track of changes
 others made to shared files. Would not have to worry about versions and their
 being in sync though.
+
+When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have?
+I would update the master branch if I am the team lead in my project. Changes made
+by others - say, junior programmers - would be updated in their own branches and
+they would get merged into the master branch by me, the lead, only after I view
+the changes they made (this is where I suppose the pull request comes into existence)
